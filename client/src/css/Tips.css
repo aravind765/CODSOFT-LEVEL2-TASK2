@@ -1,0 +1,18 @@
+.career-tips-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .career-tip {
+    margin-bottom: 20px;
+  }
+  
+  .career-tip h2 {
+    color: #333;
+  }
+  
+  .career-tip p {
+    color: #666;
+  }
+  

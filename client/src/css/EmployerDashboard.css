@@ -1,0 +1,61 @@
+/* Contenedor principal */
+.employer-dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Encabezado */
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3498db; /* Azul */
+  }
+  
+  /* Sección de listado de trabajos */
+  .job-listings-section {
+    margin-top: 30px;
+  }
+  
+  .job-listings-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2ecc71; /* Verde */
+  }
+  
+  .job-listings-section ul {
+    list-style: none;
+  }
+  
+  .job-listings-section li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Sección de aplicaciones */
+  .applications-section {
+    margin-top: 30px;
+  }
+  
+  .applications-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #e74c3c; /* Rojo */
+  }
+  
+  .applications-section ul {
+    list-style: none;
+  }
+  
+  .applications-section li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

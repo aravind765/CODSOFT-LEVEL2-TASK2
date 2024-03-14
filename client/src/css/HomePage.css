@@ -1,0 +1,176 @@
+/* Contenedor principal */
+.homepage-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Sección de bienvenida */
+.welcome-section {
+  background-color: #3498db;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.welcome-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.welcome-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #fff;
+  color: #3498db;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Sección de trabajos destacados */
+.featured-jobs-section {
+  margin-top: 30px;
+}
+
+.featured-jobs-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.featured-jobs-section ul {
+  list-style: none;
+}
+
+.featured-jobs-section li {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+/* Sección de testimonios de usuarios */
+.user-testimonials-section {
+  margin-top: 30px;
+}
+
+.user-testimonials-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.user-testimonials-section ul {
+  list-style: none;
+}
+
+.user-testimonials-section li {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Sección de consejos profesionales */
+.career-tips-section {
+  margin-top: 30px;
+}
+
+.career-tips-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.career-tips-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.career-tips-section ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.career-tips-section li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Sección de registro */
+.join-us-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.join-us-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.join-us-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.join-us-section .cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.join-us-section .cta-button:hover {
+  background-color: #fff;
+  color: #3498db;
+}
+
+/* Media queries para hacerlo responsive */
+@media (max-width: 600px) {
+  .homepage-container {
+    padding: 10px;
+  }
+
+  .welcome-section {
+    padding: 20px;
+  }
+
+  .cta-button {
+    font-size: 1em;
+  }
+
+  .featured-jobs-section li,
+  .user-testimonials-section li,
+  .career-tips-section li {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+
+  .join-us-section {
+    margin-top: 20px;
+  }
+
+  .join-us-section h2 {
+    font-size: 1.5em;
+  }
+
+  .join-us-section p {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+
+  .join-us-section .cta-button {
+    font-size: 1em;
+    padding: 8px 15px;
+  }
+}
